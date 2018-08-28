@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="GitHub"
+         fetch="git://github.com/" />
+
+<!-- Device repos -->
+<project path="device/wingtech/wt88047" name="wt88047-treble/android_device_wingtech_wt88047" remote="GitHub" revision="lineage-15.1"/>
+<project path="kernel/wingtech/msm8916" name="wt88047-treble/android_kernel_wingtech_msm8916-32" remote="GitHub" revision="treble"/>
+<project path="vendor/wingtech" name="wt88047-treble/android_vendor_wingtech_wt88047" remote="GitHub" revision="treble1" />
+
+<!--Treble R2 Things-->
+<project path="hardware/qcom/audio-caf/msm8916" name="wt88047-treble/android_hardware_qcom_audio" revision="lineage-15.1-caf-8916" remote="GitHub" />
+<project path="hardware/qcom/display-caf/msm8916" name="wt88047-treble/android_hardware_qcom_display" revision="treble32" remote="GitHub" />
+<project path="hardware/qcom/media-caf/msm8916" name="wt88047-treble/android_hardware_qcom_media" revision="lineage-15.1-caf-8916" remote="GitHub" />
+</manifest>

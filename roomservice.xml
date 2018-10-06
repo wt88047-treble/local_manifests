@@ -11,9 +11,9 @@
 <remove-project path="platform/hardware/qcom/power" name="LineageOS/android_hardware_qcom_power"/>
 
 <!-- Device repos -->
-<project path="device/wingtech/wt88047" name="wt88047-treble/android_device_wingtech_wt88047" revision="lineage-15.1" remote="GitHub" />
-<project path="kernel/wingtech/msm8916" name="wt88047-treble/android_kernel_wingtech_msm8916-32" revision="treble" remote="GitHub"/>
-<project path="vendor/wingtech" name="wt88047-treble/android_vendor_wingtech_wt88047" revision="treble1" remote="GitHub" />
+<project path="device/wingtech/wt88047" name="wt88047-treble/android_device_wingtech_wt88047" revision="lineage-15.1-64" remote="GitHub" />
+<project path="kernel/wingtech/msm8916" name="karthikkm007/kernel_wingtech_msm8916" revision="aex64" remote="GitHub"/>
+<project path="vendor/wingtech" name="karthikkm007/vendor_wingtech_wt88047" revision="aex64" remote="GitHub" />
 
 <!--Treble R2 Things-->
 <project path="hardware/qcom/audio-caf/msm8916" name="wt88047-treble/android_hardware_qcom_audio" revision="lineage-15.1-caf-8916" remote="GitHub" />
